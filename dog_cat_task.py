@@ -17,8 +17,8 @@ directory = os.path.dirname(__file__)
 dataset = load_dataset(
     path="csv",
     data_files={
-        "train": rf"{directory}\datas\data1.txt",
-        "test": rf"{directory}\datas\data2.txt",
+        "train": rf"{directory}\datas\dog_cat_data1.txt",
+        "test": rf"{directory}\datas\dog_cat_data2.txt",
     },
     delimiter="\t",
     column_names=["label","text"]
